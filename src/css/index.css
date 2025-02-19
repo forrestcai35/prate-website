@@ -67,7 +67,7 @@ header > .collapsible-header{
 }
 
 .signup-img-section{
-    background-image: url("../assets/images/home/darkbg.png");
+    background-image: url("./assets/images/home/darkbg.png");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;

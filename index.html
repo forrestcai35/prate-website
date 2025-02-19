@@ -7,15 +7,15 @@
         <meta name="description" content="" />
         <link
             rel="shortcut icon"
-            href="./src/assets/logo/logo.png"
+            href="./src/assets/logo/logo.ico"
             type="image/x-icon"
         />
 
         <!-- Open Graph / Facebook -->
-        <meta property="og:title" content="Title of the project" />
+        <meta property="og:title" content="PRate" />
         <meta property="og:description" content="" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://github.com/PaulleDemon" />
+        <meta property="og:url" content="" />
         <!--Replace with the current website url-->
         <meta property="og:image" content="" />
 
@@ -32,7 +32,7 @@
         />
     </head>
     <body
-        class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-black tw-text-white"
+        class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-white tw-text-black"
     >
         <header
             class="tw-max-w-lg:tw-px-4 tw-max-w-lg:tw-mr-auto tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] lg:tw-justify-around"
@@ -48,26 +48,28 @@
                 class="collapsible-header animated-collapse max-lg:tw-shadow-md"
                 id="collapsed-header-items"
             >
+            <!-- HEADER TABS -->
                 <div
                     class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center"
                 >
-                    <a class="header-links" href=""> About us </a>
+                    <!-- <a class="header-links" href=""> About us </a>
                     <a class="header-links" href="#pricing"> Pricing </a>
                     <a class="header-links" href=""> Solutions </a>
                     <a class="header-links" href=""> Features </a>
-                    <a class="header-links" href=""> Company </a>
+                    <a class="header-links" href=""> Company </a> -->
                 </div>
                 <div
                     class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center"
                 >
-                    <a
+            <!-- DOWNLAOD BUTTON -->
+                    <!-- <a
                         href=""
                         aria-label="signup"
                         class="tw-rounded-full tw-bg-white tw-px-3 tw-py-2 tw-text-black tw-transition-transform tw-duration-[0.3s] hover:tw-translate-x-2"
                     >
                         <span>Download</span>
                         <i class="bi bi-download"></i>
-                    </a>
+                    </a> -->
                 </div>
             </div>
             <button
@@ -91,11 +93,27 @@
                     <div
                         class="reveal-up gradient-text tw-text-center tw-text-6xl tw-font-semibold tw-uppercase tw-leading-[80px] max-lg:tw-text-4xl max-md:tw-leading-snug"
                     >
-                        <span class=""> PRate  </span>
+                        <span class=""> Get you dream body</span>
                         <br />
-                        <span class=""> Terrains wih ease </span>
+                        <span class=""> with AI. </span>
                     </div>
-                    
+                    <div
+                    class="reveal-up tw-mt-10 tw-flex tw-place-items-center tw-gap-4"
+                >
+                    <a
+                        class="btn tw-bg-[#7e22ce85] tw-shadow-lg tw-shadow-primary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
+                        href=""
+                    >
+                        Get started
+                    </a>
+                    <a
+                        class="btn tw-flex tw-gap-2 !tw-bg-black !tw-text-white tw-transition-colors tw-duration-[0.3s] hover:!tw-bg-white hover:!tw-text-black"
+                        href=""
+                    >
+                        <i class="bi bi-play-circle-fill"></i>
+                        <span>Learn more</span>
+                    </a>
+                </div>
                 </div>
 
                 <div
@@ -107,7 +125,7 @@
                         id="dashboard"
                     >
                         <img
-                            src="./src/assets/images/home/phone.png"
+                            src="./src/assets/images/home/emptyphone.png"
                             alt="dashboard"
                             class=" tw-w-full tw-object-contain tw-opacity-90 "
                         />
@@ -118,31 +136,6 @@
                     ></div>
                 </div>
 
-                <div class="tw-flex tw-flex-col tw-w-full tw-place-items-center tw-place-content-center">
-                     <div
-                        class="reveal-up tw-mt-10 tw-max-w-[450px] tw-p-2 tw-text-center tw-text-gray-300 max-lg:tw-max-w-full"
-                    >
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit
-                        Lorem ipsum dolor sit amet.
-                    </div>
-
-                    <div
-                        class="reveal-up tw-mt-10 tw-flex tw-place-items-center tw-gap-4"
-                    >
-                        <a
-                            class="btn tw-bg-[#7e22ce85] tw-shadow-lg tw-shadow-primary tw-transition-transform tw-duration-[0.3s] hover:tw-scale-x-[1.03]"
-                            href=""
-                        >
-                            Get started
-                        </a>
-                        <a
-                            class="btn tw-flex tw-gap-2 !tw-bg-black !tw-text-white tw-transition-colors tw-duration-[0.3s] hover:!tw-bg-white hover:!tw-text-black"
-                            href=""
-                        >
-                            <i class="bi bi-play-circle-fill"></i>
-                            <span>Learn more</span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>
@@ -161,7 +154,7 @@
                     <!-- add the brands using your app  -->
                     <div class="carousel-img tw-h-[30px] tw-w-[150px]">
                         <img
-                            src="./assets/images/brand-logos/google.svg"
+                            src="./src/assets/images/brand-logos/google.svg"
                             alt="Google"
                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
                             srcset=""
@@ -169,7 +162,7 @@
                     </div>
                     <div class="carousel-img tw-h-[30px] tw-w-[150px]">
                         <img
-                            src="./assets/images/brand-logos/microsoft.svg"
+                            src="./src/assets/images/brand-logos/microsoft.svg"
                             alt="Microsoft"
                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
                             srcset=""
@@ -177,7 +170,7 @@
                     </div>
                     <div class="carousel-img tw-h-[30px] tw-w-[150px]">
                         <img
-                            src="./assets/images/brand-logos/adobe.svg"
+                            src="./src/assets/images/brand-logos/adobe.svg"
                             alt="Adobe"
                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
                             srcset=""
@@ -185,7 +178,7 @@
                     </div>
                     <div class="carousel-img tw-h-[30px] tw-w-[150px]">
                         <img
-                            src="./assets/images/brand-logos/airbnb.svg"
+                            src="./src/assets/images/brand-logos/airbnb.svg"
                             alt="Adobe"
                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
                             srcset=""
@@ -193,7 +186,7 @@
                     </div>
                     <div class="carousel-img tw-h-[30px] tw-w-[150px]">
                         <img
-                            src="./assets/images/brand-logos/stripe.svg"
+                            src="./src/assets/images/brand-logos/stripe.svg"
                             alt="Adobe"
                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
                             srcset=""
@@ -201,7 +194,7 @@
                     </div>
                     <div class="carousel-img tw-h-[30px] tw-w-[150px]">
                         <img
-                            src="./assets/images/brand-logos/reddit.svg"
+                            src="./src/assets/images/brand-logos/reddit.svg"
                             alt="Adobe"
                             class="tw-h-full tw-w-full tw-object-contain tw-grayscale tw-transition-colors hover:tw-grayscale-0"
                             srcset=""
@@ -300,7 +293,7 @@
                         class="tw-top-20 lg:tw-sticky tw-max-h-[800px] tw-h-full tw-max-w-[850px] max-lg:tw-max-h-fit max-lg:tw-max-w-[320px] tw-overflow-hidden tw-rounded-lg"
                     >
                         <img
-                            src="./src/assets/images/home/phone3.png"
+                            src="./src/assets/images/home/blank.png"
                             alt="phone"
                             class="tw-h-full tw-w-full tw-object-contain"
                         />
@@ -320,7 +313,7 @@
                     class="reveal-up tw-mt-5 tw-flex tw-flex-col tw-gap-3 tw-text-center"
                 >
                     <h2
-                        class="tw-text-4xl tw-font-medium tw-text-gray-200 max-md:tw-text-2xl"
+                        class="tw-text-4xl tw-font-medium tw-text-black max-md:tw-text-2xl"
                     >
                         Powerful solution,<br> Seamless experience
                     </h2>
@@ -331,7 +324,7 @@
                     <div
                         class="reveal-up tw-flex tw-h-[200px] tw-w-[450px] tw-gap-8 tw-rounded-xl tw-border-[1px] tw-border-outlineColor tw-bg-secondary tw-p-8 max-md:tw-w-[320px]"
                     >
-                        <div class="tw-text-4xl max-md:tw-text-2xl">
+                        <div class="tw-text-4xl max-md:tw-text-2xl ">
                             <i class="bi bi-globe"></i>
                         </div>
 
@@ -562,7 +555,7 @@
                     <div
                         class="faq-accordion tw-flex tw-w-full tw-select-none tw-text-xl max-md:tw-text-lg"
                     >
-                        <span>What license are the source code?</span>
+                        <span>Am I safe?</span>
                         <i class="bi bi-plus tw-ml-auto tw-font-semibold"></i>
                     </div>
                     <div class="content">
@@ -576,17 +569,11 @@
                     <div
                         class="faq-accordion tw-flex tw-w-full tw-select-none tw-text-xl max-md:tw-text-lg"
                     >
-                        <span>Can I request new templates?</span>
+                        <span>How does it work?</span>?</span>
                         <i class="bi bi-plus tw-ml-auto tw-font-semibold"></i>
                     </div>
                     <div class="content">
-                        you can request a generic template from
-                        <a
-                            href="https://github.com/PaulleDemon/landing-pages/issues/new/choose"
-                            class="tw-underline"
-                        >
-                            Github template request</a
-                        >. If you are looking for Custom design you should
+                        It uses ai to comprehensively rate. If you are looking for more you should
                         <a href="https://tally.so/r/woO0Kx" class="tw-underline"
                             >contact here</a
                         >
@@ -599,14 +586,11 @@
                     <div
                         class="faq-accordion tw-flex tw-w-full tw-select-none tw-text-xl max-md:tw-text-lg"
                     >
-                        <span>I need a custom template?</span>
+                        <span>I need a help?</span>
                         <i class="bi bi-plus tw-ml-auto tw-font-semibold"></i>
                     </div>
                     <div class="content">
-                        If you are looking for Custom design you can
-                        <a href="https://tally.so/r/woO0Kx" class="tw-underline"
-                            >contact here</a
-                        >
+                        Talk to us
                     </div>
                 </div>
 
@@ -616,16 +600,11 @@
                     <div
                         class="faq-accordion tw-flex tw-w-full tw-select-none tw-text-xl max-md:tw-text-lg"
                     >
-                        <span>Will you add new templates?</span>
+                        <span>Will you add more?</span>
                         <i class="bi bi-plus tw-ml-auto tw-font-semibold"></i>
                     </div>
                     <div class="content">
-                        New templates are added every Friday. So star ⭐️
-                        <a
-                            href="https://github.com/PaulleDemon/awesome-landing-pages"
-                            class="tw-underline"
-                            >Github</a
-                        >
+                        We will
                     </div>
                 </div>
             </div>
@@ -637,8 +616,8 @@
                     Still have questions?
                 </div>
                 <a
-                    href="http://"
-                    class="btn !tw-rounded-full !tw-border-[1px] !tw-border-solid !tw-border-gray-300 !tw-bg-transparent tw-transition-colors tw-duration-[0.3s]"
+                    href=""
+                    class="btn !tw-rounded-full !tw-border-[1px] !tw-border-solid  !tw-border-gray-300 !tw-bg-blue tw-transition-colors tw-duration-[0.3s] !tw-text-black"
                 >
                     Contact
                 </a>
@@ -660,9 +639,9 @@
                         >
                         <div class="tw-flex tw-flex-col tw-gap-1">
                             <h2 class="tw-text-3xl tw-text-gray-300 max-md:tw-text-xl">
-                                Upgrade to Navigator today
+                                Upgrade yourself with PRate today
                             </h2>
-                            <div class="tw-text-gray-300">Lorem ipsum dolor sit.</div>
+                            <div class="tw-text-gray-300">Empty text.</div>
                         </div>
 
                         <div
@@ -683,7 +662,7 @@
                     </div>
                     
                     <div class="tw-max-w-[60%] tw-w-full tw-h-full tw-flex max-lg:tw-max-w-full tw-place-content-end tw-place-items-end">
-                        <img src="./src/assets/images/home/phone.png" alt="phone"
+                        <img src="./src/assets/images/home/emptyPhone.png" alt="phone"
                             class="tw-h-full tw-max-h-[90%] tw-object-contain">
                     </div>
 
@@ -705,13 +684,7 @@
                     srcset=""
                     class="tw-max-w-[120px]"
                 />
-                <div>
-                    2 Lord Edward St,
-                    <br />
-                    D02 P634,
-                    <br />
-                    United States
-                </div>
+     
                 <div class="tw-mt-3 tw-text-lg tw-font-semibold">Follow us</div>
                 <div class="tw-flex tw-gap-4 tw-text-2xl">
                     <a href="" aria-label="Facebook">
